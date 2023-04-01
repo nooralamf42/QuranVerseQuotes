@@ -32,3 +32,6 @@ const allQuranQuotes = {
 const randomQuranQuoteIndex = Math.floor(Math.random()*allQuranQuotes.verse.length)
 quoteQuran.innerText = allQuranQuotes.verse[randomQuranQuoteIndex]
 path.innerText =  allQuranQuotes.address[randomQuranQuoteIndex]
+
+// to get new image every refresh
+document.querySelector(".card-body").style.backgroundImage = 'url("https://source.unsplash.com/900x900?landscapes")';
