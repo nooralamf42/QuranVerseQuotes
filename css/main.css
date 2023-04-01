@@ -1,6 +1,5 @@
 @charset "UTF-8";
 .card-body {
-  background-image: url("https://source.unsplash.com/900x900?nature-landscape");
   background-size: cover;
   border-radius: 5px;
 }
